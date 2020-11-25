@@ -35,3 +35,48 @@ This project is very similar to my [Googlemini_python](https://github.com/Raziz1
   <img align='Right' src="https://github.com/Raziz1/Googlemini_Arduino/blob/main/images/schematics.PNG? raw=true">
 </p>
 
+### Wiring IR Receiver
+| **IR Receiver**| **Arduino**   |
+| ------------- |:-------------:| 
+| Power         | 5v            |
+| Ground        | Gnd           | 
+| Out           | Pin 11~       | 
+
+### Flashing Arduino Code on to Esp8266 (Esp-01) 📶
+To flash the WiFi Module ensure you have the following wirings connected:
+| Esp8266        | Arduino      |
+| ------------- |:-------------:| 
+| VCC           | 3.3v          | 
+| Ground        | Ground        |   
+| Tx            |Tx             | 
+| Rx            |Rx             | 
+| CHPD(Enable)  |3.3v           | 
+| GPIO          |Ground         | 
+|               |Reset - Ground | 
+
+**Arduino IDE setup:**
+* In File/Preferences/Additional Boards Manager URLs:, add the following URL, http://arduino.esp8266.com/stable/package_esp8266com_index.json
+* In Tools/Boards click on Board Manager and download the Esp8266 library. I used version 2.5 because it was the only library that worked with my module
+* Change the Baudrate of the board in the serial monitor and Board Manager. Mine worked ad 115200
+* Select generic Esp8266 module and upload the code.
+* Once the code is uploaded open the Serial Monitor and check what the board is outputting
+* *When flashing the WiFi Module with new code ensure you unplug the VCC power cable and replug it back in. This Should reboot the WiFi Module into Flash mode while clearing its memory*
+
+### Uploading Code to Arduino for IR Receiver Module
+To upload code to the Arduino board ensure you have the following wirings connected:
+| Esp8266        | Arduino      |
+| ------------- |:-------------:| 
+| VCC           | 3.3v          | 
+| Ground        | Ground        |   
+| Tx            |Tx             | 
+| Rx            |Rx             | 
+| CHPD(Enable)  |3.3v           | 
+| GPIO          |Ground         | 
+|               |Reset - Nothing| 
+
+**Arduino IDE setup:**
+* IR Receiver Libraries are imported
+* In Tools/Boards change the board to Arduino Uno 
+* Upload the code
+* Once the code is uploaded **Switch the Tx and Rx cables.** This will allow the Arduino board to receive and transmit data to the IR Receiver Module display
+* Once you are finished all the above steps **Switch the GPIO pin on the Esp8266 to 3.3v.** This ensures that it boots up into a none flash mode and reads the code in its flash memory.
