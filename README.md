@@ -8,4 +8,11 @@ Arduino Uno + Esp8266 (ESP-01) + IR Receiver
   - [Technical Overview](https://nurdspace.nl/ESP8266#Introduction)
   - [Youtube Tutorial](https://www.youtube.com/watch?v=qU76yWHeQuw)
  *  [Arduino IR Receiver Module](https://www.amazon.ca/C-J-SHOP-Infrared-Wireless-Control/dp/B01EE4VXS0/ref=sr_1_13?dchild=1&keywords=arduino+ir+receiver&qid=1606330873&sr=8-13)
+ 
 ## Libraries & Resources 📚
+* [Esp8266 Library](https://github.com/sleemanj/ESP8266_Simple)
+  - [ESP8266 WiFi](https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/readme.html)
+  - [ESP8266 HTTP Client](https://github.com/esp8266/Arduino/tree/master/libraries/ESP8266HTTPClient)
+* [Arduino JSON](https://github.com/bblanchon/ArduinoJson)
+  - Arduino JSON version 5.13.5 worked for me
+* [Esp8266-Google-Home-Notifier](https://www.arduino.cc/reference/en/libraries/esp8266-google-home-notifier/)
