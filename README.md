@@ -29,3 +29,9 @@ This project is very similar to my [Googlemini_python](https://github.com/Raziz1
 * There is an extra box for whatever other API you want to scrape. Some APIs I would recommend:
   * [Api-Sports](https://dashboard.api-football.com/)
   * [GNews API](https://gnews.io/)
+  
+## Schematics ⚡
+<p> 
+  <img width = 256 height = 256 align='Right' src="https://github.com/Raziz1/Googlemini_Arduino/blob/main/images/googlehome_arduino.png? raw=true">
+</p>
+
