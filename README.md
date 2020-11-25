@@ -22,3 +22,10 @@ Arduino Uno + Esp8266 (ESP-01) + IR Receiver
 * [Arduino JSON](https://github.com/bblanchon/ArduinoJson)
   - Arduino JSON version 5.13.5 worked for me
 * [Esp8266-Google-Home-Notifier](https://www.arduino.cc/reference/en/libraries/esp8266-google-home-notifier/)
+
+## Overview
+This project is very similar to my [Googlemini_python](https://github.com/Raziz1/Googlemini_Python) project. This project assumes you have some basic knowledge when it comes to using the Esp8266 WiFi Module (ie. Flashing new firmware, Flashing Code)
+* This project uses OpenWeathers API to access online data. Go to OpenWeather.org to setup a free account and get your API key.
+* There is an extra box for whatever other API you want to scrape. Some APIs I would recommend:
+  * [Api-Sports](https://dashboard.api-football.com/)
+  * [GNews API](https://gnews.io/)
