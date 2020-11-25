@@ -78,5 +78,5 @@ To upload code to the Arduino board ensure you have the following wirings connec
 * IR Receiver Libraries are imported
 * In Tools/Boards change the board to Arduino Uno 
 * Upload the code
-* Once the code is uploaded **Switch the Tx and Rx cables.** This will allow the Arduino board to receive and transmit data to the IR Receiver Module display
+* Once the code is uploaded **Switch the Tx and Rx cables.** This will allow the Arduino board to receive and transmit data to the IR Receiver Module.
 * Once you are finished all the above steps **Switch the GPIO pin on the Esp8266 to 3.3v.** This ensures that it boots up into a none flash mode and reads the code in its flash memory.
