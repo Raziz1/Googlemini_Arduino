@@ -19,6 +19,7 @@ Arduino Uno + Esp8266 (ESP-01) + IR Receiver
 * [Esp8266 Library](https://github.com/sleemanj/ESP8266_Simple)
   - [ESP8266 WiFi](https://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/readme.html)
   - [ESP8266 HTTP Client](https://github.com/esp8266/Arduino/tree/master/libraries/ESP8266HTTPClient)
+  - This time I used version 2.7.4 and it worked because the Google Home library requires a minimum of 2.5.0 or later.
 * [Arduino JSON](https://github.com/bblanchon/ArduinoJson)
   - Arduino JSON version 5.13.5 worked for me
 * [Esp8266-Google-Home-Notifier](https://www.arduino.cc/reference/en/libraries/esp8266-google-home-notifier/)
