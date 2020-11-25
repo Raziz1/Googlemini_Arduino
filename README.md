@@ -32,6 +32,6 @@ This project is very similar to my [Googlemini_python](https://github.com/Raziz1
   
 ## Schematics ⚡
 <p> 
-  <img width = 256 height = 256 align='Right' src="https://github.com/Raziz1/Googlemini_Arduino/blob/main/images/googlehome_arduino.png? raw=true">
+  <img align='Right' src="https://github.com/Raziz1/Googlemini_Arduino/blob/main/images/schematics.PNG? raw=true">
 </p>
 
