@@ -1,6 +1,12 @@
 # Googlemini_Arduino 💻📶
 Arduino Uno + Esp8266 (ESP-01) + IR Receiver
 
+
+<p> 
+  <img width = 256 height = 256 align='Right' src="https://github.com/Raziz1/Googlemini_Arduino/blob/main/images/googlehome_arduino.png? raw=true">
+</p>
+
+
 ## Parts 🛠
   * [Arduino Uno Board](https://www.amazon.ca/Elegoo-Board-ATmega328P-ATMEGA16U2-Arduino/dp/B01EWOE0UU/ref=sr_1_2_sspa?dchild=1&keywords=arduino+uno&qid=1606330712&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzN01MSk9QUFlPM005JmVuY3J5cHRlZElkPUEwODYwNjg1MzZQOTJaMkpLVlVXNSZlbmNyeXB0ZWRBZElkPUExMDE4ODI0TU9TUDFTWFpNN1Imd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl)
   * [Arduino Prototype Shield](https://www.amazon.ca/Gikfun-Prototype-Shield-Arduino-EK1038/dp/B012F9S07I/ref=sr_1_1_sspa?crid=35L8C3CMYQ2HS&dchild=1&keywords=arduino+prototyping+shield&qid=1606330755&sprefix=arduino+protot%2Caps%2C164&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFCUlIxVUQ4STREVE8mZW5jcnlwdGVkSWQ9QTAxODc2ODgzQU1YUFdNRTMzUkdYJmVuY3J5cHRlZEFkSWQ9QTA0NDM3NzUxMTdQVTkzSkdDVEI1JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
