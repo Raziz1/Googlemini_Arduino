@@ -80,3 +80,10 @@ To upload code to the Arduino board ensure you have the following wirings connec
 * Upload the code
 * Once the code is uploaded **Switch the Tx and Rx cables.** This will allow the Arduino board to receive and transmit data to the IR Receiver Module.
 * Once you are finished all the above steps **Switch the GPIO pin on the Esp8266 to 3.3v.** This ensures that it boots up into a none flash mode and reads the code in its flash memory.
+
+## Notes 📝
+* You will have to go into the code to add your API keys
+* In the code add the name of your google home/mini 
+* Press the pause/play button to receive a current weather report
+* You can customize the code so that other buttons can call other API's
+* If you want you can mess around with the low power modes on the Esp8266 (ESP-01) to improve power consumption
