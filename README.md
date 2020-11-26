@@ -30,6 +30,7 @@ This project is very similar to my [Googlemini_python](https://github.com/Raziz1
 * There is an extra box for whatever other API you want to scrape. Some APIs I would recommend:
   * [Api-Sports](https://dashboard.api-football.com/)
   * [GNews API](https://gnews.io/)
+  * Here is a tutorial for making [HTTPS requests](https://circuits4you.com/2019/01/10/esp8266-nodemcu-https-secured-get-request/)
   
 ## Schematics ⚡
 <p> 
